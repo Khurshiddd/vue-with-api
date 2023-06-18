@@ -1,11 +1,12 @@
 <template>
     <div>
-        <h1>Register</h1>
+        <Register/>
     </div>
 </template>
 <script>
+import { Register } from '../components';
 export default {
-    
+    components: {Register}
 }
 </script>
 <style>
